@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FirebaseChat</string>
+    <string name="chat">Chat</string>
+    <string name="write_message">Write a message...</string>
+    <string name="escriba_un_mensaje">Escriba un mensaje...</string>
+</resources>
