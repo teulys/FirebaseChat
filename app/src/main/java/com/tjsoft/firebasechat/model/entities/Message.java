@@ -11,8 +11,7 @@ public class Message {
 
     }
 
-    public Message(String id, String text, String time, boolean transmitter) {
-        this.id = id;
+    public Message(String text, String time, boolean transmitter) {
         this.text = text;
         this.time = time;
         this.transmitter = transmitter;
