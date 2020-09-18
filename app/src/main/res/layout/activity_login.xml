@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
+    tools:context=".LoginActivity">
+    <!--https://captaindroid.com/nice-login-ui-design-in-android/-->
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -145,6 +145,7 @@
                 android:background="@drawable/rounded_corner_button"
                 android:text="Register"
                 android:textColor="#777"
+                android:onClick="onClick"
                 android:id="@+id/btRegister"
                 android:layout_width="wrap_content"
                 android:layout_height="35dp" />
@@ -154,6 +155,7 @@
                 android:paddingLeft="20dp"
                 android:id="@+id/btSingInd"
                 android:layout_marginLeft="20dp"
+                android:onClick="onClick"
                 android:background="@drawable/rounded_corner_button"
                 android:text="Sing in"
                 android:textColor="#777"
