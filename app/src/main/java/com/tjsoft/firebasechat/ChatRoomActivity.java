@@ -23,6 +23,7 @@ import com.tjsoft.firebasechat.model.entities.User;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class ChatRoomActivity extends AppCompatActivity {
 
@@ -136,4 +137,5 @@ public class ChatRoomActivity extends AppCompatActivity {
 
         etChat.setText("");
     }
+
 }
